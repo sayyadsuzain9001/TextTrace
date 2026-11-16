@@ -1,0 +1,24 @@
+{
+  "model_names": [
+    "LR",
+    "SVM",
+    "XGBoost",
+    "DistilRoBERTa"
+  ],
+  "weights": {
+    "LR": 0.3825256288033804,
+    "SVM": 0.0034425823818549674,
+    "XGBoost": 0.3631189128374177,
+    "DistilRoBERTa": 0.25091287597734685
+  },
+  "threshold": 0.56,
+  "label_mapping": {
+    "0": "Human",
+    "1": "AI"
+  },
+  "seed": 42,
+  "dataset": "liamdugan/raid",
+  "local_dataset": "E:\\TexTrace1\\data\\processed\\raid_500k.csv",
+  "transformer_model": "distilroberta-base",
+  "transformer_train_limit": 50000
+}

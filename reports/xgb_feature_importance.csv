@@ -1,0 +1,16 @@
+feature,importance
+unique_word_ratio,0.17098169
+word_count,0.13788407
+semicolon_count,0.13043463
+char_count,0.087882504
+colon_count,0.074134916
+exclamation_count,0.063312456
+comma_count,0.053140335
+digit_ratio,0.05267524
+avg_word_length,0.05098641
+uppercase_ratio,0.04517795
+punctuation_ratio,0.040788095
+question_count,0.040091496
+sentence_count,0.026884325
+avg_sentence_length,0.025625836
+newline_count,0.0

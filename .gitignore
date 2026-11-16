@@ -1,0 +1,40 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data (multi-GB RAID dataset splits)
+data/
+
+# Large model weights (over GitHub's 100 MB file limit)
+*.safetensors
+*.bin
+
+# Runtime folders
+repository/
+feedback/
+models/candidate_adaptive_*
+reports/*.pdf
+
+# Tooling caches
+/graft/
+.ignore
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

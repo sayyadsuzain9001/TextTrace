@@ -1,0 +1,36 @@
+{
+  "project": "TextTrace",
+  "purpose": "AI-generated text detection",
+  "dataset": "RAID",
+  "dataset_configuration": "raid",
+  "rows_after_cleaning": 499661,
+  "train_rows": 349836,
+  "validation_rows": 75012,
+  "test_rows": 74813,
+  "seed": 42,
+  "domains": [
+    "abstracts",
+    "books",
+    "news",
+    "poetry",
+    "recipes",
+    "reddit",
+    "reviews",
+    "wiki"
+  ],
+  "models": [
+    "LR",
+    "SVM",
+    "XGBoost",
+    "DistilRoBERTa"
+  ],
+  "ensemble_threshold": 0.56,
+  "ensemble_weights": {
+    "LR": 0.3825256288033804,
+    "SVM": 0.0034425823818549674,
+    "XGBoost": 0.3631189128374177,
+    "DistilRoBERTa": 0.25091287597734685
+  },
+  "transformer_saved": true,
+  "note": "AI score and source similarity are separate outputs. An AI score must not be described as proof of plagiarism or definitive proof of authorship."
+}

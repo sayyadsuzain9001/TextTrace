@@ -1,0 +1,14 @@
+streamlit
+PyMuPDF
+reportlab
+python-docx
+lxml
+scikit-learn
+joblib
+xgboost
+numpy
+pandas
+torch
+transformers
+docx2pdf
+pytest
